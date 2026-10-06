@@ -1,0 +1,17 @@
+검증 시간 (UTC): 2026-10-06T09:32:54.685081+00:00
+
+PASS: bash -n install-cli.sh
+PASS: workflow YAML 구문 읽기
+PASS: 동일 설치 스크립트 실행 (CLI_PREFIX=/opt/vast-cli-image-validation)
+PASS: Claude 공식 릴리스 SHA256 검증
+PASS: Codex CLI 0.160.1 --version 및 --help
+PASS: Claude Code 2.1.291 --version 및 --help
+PASS: env -i로 nvm이 로드되지 않은 셸에서 두 CLI 실행
+PASS: 현재 인스턴스 PyTorch 2.11.0+cu128, CUDA 12.8, CUDA 사용 가능
+PASS: 현재 RTX 3090에서 CUDA 텐서 연산 [2.0, 2.0, 2.0]
+
+미실행: Docker 이미지 전체 빌드 (이 컨테이너에 Docker 엔진 없음)
+미실행: registry push (대상 저장소 미지정)
+미실행: 커스텀 이미지로 Vast 인스턴스 생성 및 GPU 검증
+CLI 설치 검증은 현재 인스턴스에서 수행했으며 Docker 빌드 성공을 의미하지 않는다.
+기존 /root/.local/bin의 CLI 및 로그인 정보는 변경하지 않았다.
