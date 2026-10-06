@@ -1,0 +1,12 @@
+Build result
+
+GitHub Actions: https://github.com/zxcyxv/vast-pytorch-cli/actions/runs/37444724817
+Status: success
+Platform: linux/amd64
+Image: ghcr.io/zxcyxv/vast-pytorch-cli:build-1
+Latest: ghcr.io/zxcyxv/vast-pytorch-cli:latest
+Immutable: ghcr.io/zxcyxv/vast-pytorch-cli@sha256:7518a54cfd13cef26b43692f5c499149d77f5c682d85afc9c6fbd224ad93f16e
+Anonymous registry manifest access: verified
+Fresh Vast GPU instance with this image: not yet tested
+
+Vast: clone the official PyTorch template and replace only Image Path with the image above.
